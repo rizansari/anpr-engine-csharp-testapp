@@ -6,3 +6,13 @@ dotnet run --project test_api.csproj --api-key ydYXypJeBM6T83bUaZJXVAU9QjR6pYkiF
 
 
 dotnet run --project test_api.csproj /Users/ansari/Downloads/20260620_145139.jpg --api-key ydYXypJeBM6T83bUaZJXVAU9QjR6pYkiFTCBR0T6Oio 
+
+
+dotnet run --project test_api.csproj "C:\Users\amiab\Downloads\20260607_121544.jpg" --api-key ydYXypJeBM6T83bUaZJXVAU9QjR6pYkiFTCBR0T6Oio 
+
+
+dotnet run --project test_api.csproj --url http://localhost:8092 --source D:\projects\vision\test-images\source --dest D:\projects\vision\test-images\destination --api-key MPfK5tnpb2itstVhvQVYQb_vUddv9wdVfl4NfjD7ov4 
+
+ .\test_api.exe --url http://localhost:8092 --source D:\projects\vision\test-images\source --dest D:\projects\vision\test-images\destination --api-key MPfK5tnpb2itstVhvQVYQb_vUddv9wdVfl4NfjD7ov4
+
+--source D:\projects\vision\test-images\source --dest D:\projects\vision\test-images\destination

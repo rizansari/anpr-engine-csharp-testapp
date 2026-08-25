@@ -12,8 +12,6 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using OpenCvSharp;
 
-const string DefaultUrl = "https://anprengine.hybridvision.ai";
-
 var supportedExt = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
 {
     ".jpg", ".jpeg", ".png", ".bmp", ".webp",
@@ -26,7 +24,7 @@ LoadDotEnv(Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), ".env"
 string? imagePath = null;
 string? sourceFolder = null;
 string? destFolder = null;
-string url = Environment.GetEnvironmentVariable("HVA_API_URL") ?? DefaultUrl;
+string url = Environment.GetEnvironmentVariable("HVA_API_URL") ?? "";
 string apiKey = Environment.GetEnvironmentVariable("HVA_API_KEY") ?? "";
 
 var argv = Environment.GetCommandLineArgs().Skip(1).ToArray();
