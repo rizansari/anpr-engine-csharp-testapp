@@ -1,0 +1,30 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+*.swp
+*.swo
+
+## Secrets
+.env
+*.pfx
+*.p12
+secrets/
+
+## Logs
+logs/
+*.log
+
+## Docker
+.dockerignore
+
+## Build artifacts
+publish/
+artifacts/
+
+## macOS
+.DS_Store
+.license-keys/

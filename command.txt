@@ -1,0 +1,8 @@
+dotnet run --project tools/test_api.csproj -- --api-key ydYXypJeBM6T83bUaZJXVAU9QjR6pYkiFTCBR0T6Oio
+HVA_API_KEY=... HVA_API_URL=https://anprengine.hybridvision.ai dotnet run --project test_api.csproj
+
+
+dotnet run --project test_api.csproj --api-key ydYXypJeBM6T83bUaZJXVAU9QjR6pYkiFTCBR0T6Oio HVA_API_URL=https://anprengine.hybridvision.ai
+
+
+dotnet run --project test_api.csproj /Users/ansari/Downloads/20260620_145139.jpg --api-key ydYXypJeBM6T83bUaZJXVAU9QjR6pYkiFTCBR0T6Oio 
