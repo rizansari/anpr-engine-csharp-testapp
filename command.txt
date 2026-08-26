@@ -24,3 +24,8 @@ dotnet run --project test_api.csproj benchmark --image "C:\Users\amiab\Downloads
 
 
  .\hvanpr.exe testapi --url http://localhost:8090 --source D:\projects\vision\test-images\source --dest D:\projects\vision\test-images\destination --api-key 88xp6dy7l4xS7CfE2eA42_9XJr8XI9G6k9HLFrUl0o4
+
+
+MAC
+WoyOo1NESbYVZeN0IwylViDG57mV7kalXxntACirMPk
+dotnet run --project test_api.csproj testapi /Users/ansari/Downloads/anpr.jpeg --url http://localhost:8090  --api-key WoyOo1NESbYVZeN0IwylViDG57mV7kalXxntACirMPk

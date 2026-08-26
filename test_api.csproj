@@ -6,13 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>HvAnpr</RootNamespace>
-    <AssemblyName>hvanpr</AssemblyName>
+    <AssemblyName>cganpr</AssemblyName>
   </PropertyGroup>
 
-  <ItemGroup>
-    <!-- <PackageReference Include="OpenCvSharp4" Version="4.13.0.20260627" />
-    <PackageReference Include="OpenCvSharp4.runtime.osx.arm64" Version="4.13.0.20260627" /> -->
-  </ItemGroup>
+  <!-- <ItemGroup>
+    <PackageReference Include="OpenCvSharp4" Version="4.13.0.20260627" />
+    <PackageReference Include="OpenCvSharp4.runtime.osx.arm64" Version="4.13.0.20260627" />
+  </ItemGroup> -->
 
   <ItemGroup>
     <PackageReference Include="OpenCvSharp4.Windows" Version="4.13.0.20260627" />
