@@ -16,3 +16,11 @@ dotnet run --project test_api.csproj --url http://localhost:8092 --source D:\pro
  .\test_api.exe --url http://localhost:8092 --source D:\projects\vision\test-images\source --dest D:\projects\vision\test-images\destination --api-key MPfK5tnpb2itstVhvQVYQb_vUddv9wdVfl4NfjD7ov4
 
 --source D:\projects\vision\test-images\source --dest D:\projects\vision\test-images\destination
+
+
+dotnet run --project test_api.csproj testapi --url http://localhost:8092 --source D:\projects\vision\test-images\source --dest D:\projects\vision\test-images\destination --api-key MPfK5tnpb2itstVhvQVYQb_vUddv9wdVfl4NfjD7ov4
+
+dotnet run --project test_api.csproj benchmark --image "C:\Users\amiab\Downloads\20260607_121544.jpg" --requests 200 --concurrency 8 --label "1w-1t" --url http://localhost:8092  --api-key MPfK5tnpb2itstVhvQVYQb_vUddv9wdVfl4NfjD7ov4
+
+
+ .\hvanpr.exe testapi --url http://localhost:8090 --source D:\projects\vision\test-images\source --dest D:\projects\vision\test-images\destination --api-key 88xp6dy7l4xS7CfE2eA42_9XJr8XI9G6k9HLFrUl0o4
