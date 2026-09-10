@@ -1,0 +1,6 @@
+
+.\cganpr.exe testapi --url http://localhost:8090 --source D:\projects\vision\test-images\source --dest D:\projects\vision\test-images\destination --api-key KGwT6KrOcZJlezU81EHtRe_KbKOiqyu6zvEOY4r-3SA
+
+.\cganpr.exe testapi "D:\projects\vision\test-images\source\anpr.jpeg" --url http://localhost:8090 --api-key KGwT6KrOcZJlezU81EHtRe_KbKOiqyu6zvEOY4r-3SA
+
+.\cganpr.exe testapi "C:\Users\amiab\Downloads\anpr_empty.jpeg"  --url http://localhost:8090 --api-key KGwT6KrOcZJlezU81EHtRe_KbKOiqyu6zvEOY4r-3SA
