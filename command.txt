@@ -29,3 +29,6 @@ dotnet run --project test_api.csproj benchmark --image "C:\Users\amiab\Downloads
 MAC
 WoyOo1NESbYVZeN0IwylViDG57mV7kalXxntACirMPk
 dotnet run --project test_api.csproj testapi /Users/ansari/Downloads/anpr.jpeg --url http://localhost:8090  --api-key WoyOo1NESbYVZeN0IwylViDG57mV7kalXxntACirMPk
+
+
+cganpr benchmark --image "C:\Users\amiab\Downloads\20260607_121544.jpg" --requests 200 --concurrency 8 --label "1w-1t" --url http://localhost:8090  --api-key WoyOo1NESbYVZeN0IwylViDG57mV7kalXxntACirMPk
